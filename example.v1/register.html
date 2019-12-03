@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>REGISTER</title>
+    </head>
+    <body>
+            <hr>
+            <ul>
+                <li><a href="register.html"><strong>Register</strong></a></li>
+                <li><a href="cssexample.html"><strong>CSSExample</strong></a></li>
+            </ul>
+            <hr>
+
+        <h1>This is the register page</h1>
+        <!-- HTML comment (VSCODE SHORTCUT: ctrl + /) -->
+        <form method="POST">
+            <p>First Name</p><input type="text" name="name" required>
+
+            <p>password</p><input type="password" min="8" name="password" required>
+
+            <p>email</p><input type="email" name="email" required>
+
+            <p>birthdate</p><input type="date" name="birthdate" required>
+
+            <p>Are you a gender?</p>
+            <input type="radio" required value="yes" name="gender">Yes<br>
+            <input type="radio" required value="no" name="gender">No<br>
+
+            <p>Which chromosomes do you have?</p>
+            <input type="checkbox" required name="gender">X<br>
+            <input type="checkbox" required name="gender">Y<br>
+            <input type="checkbox" required name="gender">Z<br>
+            <input type="checkbox" required name="gender">Other<br>
+
+            <p>id</p><input type="number" required>
+
+            <p>Cars</p>
+            <section name="cars">
+                <option value="mercedes">Mercedes</option>
+                <option value="vw">VW</option>
+            </section>
+
+            <input type="submit" value="Register">
+
+            <input type="reset">
+        </form>
+        
+    </body>
+</html>

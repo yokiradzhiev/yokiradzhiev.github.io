@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    background-image: url(../images/frog.jpg);
+    
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+  }
+.faded {
+    color: rgba(255, 255, 255, 0.7)
+}
+header.startup {
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+}
+header.startup h1{
+ font-size: 5rem;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+header.startup h1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+   }
+.btn {
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 300px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    }
+.btn-xl {
+margin-top: 200px;
+margin-bottom: 40px;
+padding:  1rem 2rem;
+}
+
+.btn-primary {
+    background-color: #852C64;
+    border-color: #42002A;
+}
+.btn-primary:hover {
+    background-color: #A65387;
+    border-color: #631145;
+}

@@ -1,0 +1,55 @@
+h1 {
+    color: #407F7F;
+    text-align: center;
+    border: 4px dotted #7887AB;
+    cursor: wait;
+}
+body {
+    background-image: url(../images/shrek.jpg);
+    background-size: cover;
+}
+li{
+    list-style: none;
+    color: #55AA55;
+    display: inline-block;
+}
+.class1 {
+    color: aqua;
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 130%;
+    font-family: 'Courier New', Courier, monospace;
+}
+#id1 {
+    border: solid 3px #2D882D;
+    text-align: center;
+    background-color: rgba(13, 77, 77, .3)
+}
+#id2 {
+    border: solid 3px #226666;
+    text-align: center;
+    background-color: rgba(17, 102, 17 .3)
+}
+.class2:hover{
+    text-align: left;
+    color: #ffb3ee;
+}
+#boiko {
+    float: left;
+
+}
+#div3 {
+    background-color: white;
+    text-align: center;
+}
+.boxmodel {
+    border: 5px solid red;
+    display: inline-block;
+    padding: 10px 5px 10px 5px;
+    margin: 40px;
+    
+
+}

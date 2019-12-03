@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+h1 {
+    font-size: 3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: rebeccapurple solid 2px;
+    border-right: rebeccapurple solid 2px;
+    width: 300px;
+    box-shadow: 4px 6px 2px #888888;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+img {
+    widows: 600px;
+    height: 450px;
+    margin: 20px;
+    transition: all 1s;
+}
+img:hover {
+    transform: scale(2.1);
+}
+
+#id1:hover {
+    transform: scale(1.1);
+}
+#id2:hover {
+    transform: scale(.2);
+}
+#id3:hover {
+    transform: scale(1.4);
+}
+#id4:hover {
+    transform: scale(.7);
+}
